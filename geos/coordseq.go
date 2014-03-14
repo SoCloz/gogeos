@@ -1,6 +1,8 @@
 package geos
 
 /*
+#cgo CFLAGS: -I/opt/geos3.3.9/include
+#cgo LDFLAGS: -L/opt/geos3.3.9/lib
 #include "geos.h"
 */
 import "C"
